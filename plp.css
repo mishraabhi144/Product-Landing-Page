@@ -182,5 +182,24 @@ footer a{
     top:12px;
 }
 
+a:hover{
+   animation-name: links;
+   animation-duration: 1s;
+}
+
+@keyframes links{
+    0%{
+        color:black;
+        background-color: white;
+        transform:scale(2);
+
+    }
+    100%{
+        color:black;
+        background-color: white;
+        transform:scale(1);
+
+    }
+}
 
 
