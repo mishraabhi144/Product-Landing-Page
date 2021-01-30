@@ -39,6 +39,7 @@ header h1{
 }
 
 .nav-link{
+    border: 2px solid white;
     text-decoration:none;
     color:whitesmoke;
     margin:0px 15px 0px 15px;
